@@ -1,0 +1,22 @@
+.blog{
+    display: flex;
+    justify-content: ;
+}
+.inf_about_me{
+   margin-left: 40px;
+    width: 370px;
+    height: 1319px;
+    left: 40px;
+    top: 40px;
+    background: #1E2939;
+}
+#image{
+    margin-top: 40px;
+}
+/*.contacts{*/
+/*    margin-left: 40px;*/
+/*}*/
+.contacts p{
+    color: #FFFFFF;
+}
+

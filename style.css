@@ -1,6 +1,5 @@
 .blog{
     display: flex;
-    justify-content: ;
 }
 .inf_about_me{
    margin-left: 40px;
@@ -16,7 +15,119 @@
 /*.contacts{*/
 /*    margin-left: 40px;*/
 /*}*/
-.contacts p{
+.contacts {
+    margin-top: 50px;
+    margin-left: 40px;
     color: #FFFFFF;
+}
+.tech{
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+.contacts_number{
+    display: flex;
+}
+.contacts_email{
+    display: flex;
+}
+.contacts_one{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+.contacts_two{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.contacts_three{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.contacts_for{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.contacts_five{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.tech_skills{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+.tech ul li{
+    list-style-type: none;
+}
+.tech ul li:before{
+    color: #FB6D3A;
+    content: "•";
+    padding-right: 7px;
+}
+.soft{
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+.soft_skills{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+.soft ul li{
+    list-style-type: none;
+}
+.soft ul li:before{
+    color: #FB6D3A;
+    content: "•";
+    padding-right: 7px;
+}
+.general_information{
+    margin-left: 90px;
+}
+.developer{
+    margin-top: 100px;
+}
+.field_of_development{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.name_developer{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+}
+.brief_description{
+    margin-top: 25px;
+    width: 400px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.brief_description_text{
+}
+.project{
+    margin-top: 40px;
+}
+.project_title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+.work_experience{
+    margin-top: 40px;
+}
+.title_work{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+.first_work{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.date_of_first_work{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+.color_text_first{
+    color: #FB6D3A;
+}
+.date_of_first_work{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
 }
 

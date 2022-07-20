@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
     <title>My resume</title>
 </head>
 <body>
@@ -17,14 +20,18 @@
             <img id="image" src="img/me2.png" alt=""/>
         <!-- Contacts -->
         <div class="contacts">
-            <p> Contacts </p>
-            <p>C: +7 777 777 77 77 </p>
-            <p>E: chornyiav@gmail.com</p>
+            <p class="contacts_one"> <strong> Contacts </strong> </p>
+            <div class="contacts_number">
+                <div class="contacts_two"> <strong> C: </strong> </div> <div class="contacts_three"> +7 777 777 77 77 </div>
+            </div>
+            <div class="contacts_email">
+                <div class="contacts_for"> <strong> E: </strong>: </div> <div class="contacts_five"> chornyiav@gmail.com </div>
+            </div>
         </div>
         <!-- Skills -->
         <div class="skills">
             <div class="tech">
-                <p> Tech Skills </p>
+                <p class="tech_skills"> <strong> Tech Skills </strong> </p>
                 <ul>
                     <li> HTML5 </li>
                     <li> CSS3 </li>
@@ -36,7 +43,7 @@
                 </ul>
             </div>
             <div class="soft">
-                <p> Soft Skills </p>
+                <p class="soft_skills"> <strong> Soft Skills </strong> </p>
                 <ul>
                     <li> Scrum </li>
                     <li> Agile </li>
@@ -53,16 +60,20 @@
 
         <!-- Developer -->
         <div class="developer">
-            <p> Front-End Developer </p>
-            <p> Anton Chornyi </p>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            <div class="field_of_development"> <strong> Front-End Developer </strong> </div>
+            <div class="name_developer"> <strong> Anton Chornyi </strong> </div>
+            <div class="brief_description">
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore
                 magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                Risus commodo viverra maecenas accumsan lacus vel facilisis.  </p>
+                Risus commodo viverra maecenas accumsan lacus vel facilisis.
+
+            </div>
         </div>
         <!-- Project -->
         <div class="project">
-            <p> Projects </p>
+            <p class="project_title"> <strong> Projects </strong> </p>
             <ol>
                 <li> https://hellenglish.goit.global/ __________[ HTML5, CSS3 ]</li>
                 <li> https://cryptohub.goit.global/ ___________[ JavaScript ] </li>
@@ -72,10 +83,10 @@
         </div>
         <!-- Work Experience -->
         <div class="work_experience">
-            <p> Work Experience </p>
-            <div class="the_first_work">
-                <p> Front-End Developer Freelance  </p>
-                <p> September 2019 - up to now   |   Country </p>
+            <p class="title_work"> Work Experience </p>
+            <div class="first_work">
+                <p class="name_first_work"> Front-End Developer <span class="color_text_first"> Freelance </span>  </p>
+                <p class="date_of_first_work"> September 2019 - up to now   |   Country </p>
                 <ul>
                     <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.  </li>

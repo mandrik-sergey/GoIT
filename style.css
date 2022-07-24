@@ -20,63 +20,70 @@
     margin-left: 40px;
     color: #FFFFFF;
 }
-.tech{
-    color: #FFFFFF;
-    margin-left: 40px;
-}
 .contacts_number{
     display: flex;
 }
 .contacts_email{
     display: flex;
 }
-.contacts_one{
+.contacts_title{
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
+    margin-bottom: 10px;
 }
-.contacts_two{
+
+.contacts_letter{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    margin-right: 5px;
 }
-.contacts_three{
-    font-family: 'Montserrat', sans-serif;
+.contact_link{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
 }
-.contacts_for{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+.tech{
+    color: #FFFFFF;
+    margin-top: 45px;
+    margin-left: 40px;
 }
-.contacts_five{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-}
+
 .tech_skills{
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
+    margin-bottom: 10px;
+}
+.tech ul{
+    padding: 0;
+    margin-left: 17px;
 }
 .tech ul li{
-    list-style-type: none;
-}
-.tech ul li:before{
     color: #FB6D3A;
-    content: "•";
-    padding-right: 7px;
+}
+.paragraph_line_skills{
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px ;
 }
 .soft{
     color: #FFFFFF;
+    margin-top: 45px;
     margin-left: 40px;
 }
 .soft_skills{
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
 }
-.soft ul li{
-    list-style-type: none;
+.soft ul{
+    padding: 0;
+    margin-left: 17px;
 }
-.soft ul li:before{
+.soft ul li {
     color: #FB6D3A;
-    content: "•";
-    padding-right: 7px;
 }
 .general_information{
     margin-left: 90px;
@@ -98,6 +105,7 @@
     width: 400px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    color: #595959;
 }
 .brief_description_text{
 }
@@ -108,8 +116,26 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
 }
+.project_paragraph_text{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.text_link{
+    color: #595959;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration:underline;
+}
 .work_experience{
     margin-top: 40px;
+
 }
 .title_work{
     font-family: 'Montserrat', sans-serif;
@@ -119,15 +145,83 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
-.date_of_first_work{
+.first_work ul li{
+    list-style-type: none;
+}
+.first_work ul li:before{
+    color: #595959;
+    content: "●";
+    padding-right: 7px;
+}
+.paragraph{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #595959;
+}
+.date_of_work{
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
 }
-.color_text_first{
+.name_work{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.color_text_orange{
     color: #FB6D3A;
 }
-.date_of_first_work{
+.date_of_work{
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
+    color: #A8A8A8;
 }
+.color_dash{
+    color: black;
+}
+.two_work{
+margin-top: 15px;
+}
+.two_work ul li{
+    list-style-type: none;
+}
+.two_work ul li:before{
+    color: #595959;
+    content: "●";
+    padding-right: 7px;
+}
+.three_work{
+    margin-top: 20px;
+}
+.three_work ul li{
+    list-style-type: none;
+}
+.three_work ul li:before{
+    color: #595959;
+    content: "●";
+    padding-right: 7px;
+}
+.education{
+margin-top: 45px;
+}
+.title_education{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.name_university{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #FB6D3A;
+}
+.speciality{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.date_education{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #A8A8A8;
+}
+
+
+
 

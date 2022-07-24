@@ -1,5 +1,6 @@
 .blog{
     display: flex;
+    width:1200px;
 }
 .inf_about_me{
    margin-left: 40px;
